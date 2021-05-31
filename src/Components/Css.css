@@ -1,0 +1,106 @@
+
+/* error page
+ */
+ @media(max-width:992px) {
+     
+ .container-error{
+    background-color: #21253ced;
+    height: 39rem;
+} 
+h6{
+    font-size: 8rem;
+    padding-left: 6rem;
+    padding-top: 3rem;
+    color:red;
+}
+
+.h6 {
+    margin-top: 0;
+    margin-bottom: .5rem;
+    margin-left: 20rem;
+    font-weight: 500;
+    line-height: 1.2;
+}
+p {
+    font-size: 4rem;
+    padding-left: 7rem;
+    color: chartreuse;
+}
+a {
+    color: #0d6efd;
+    text-decoration: underline;
+    text-decoration: none;
+    background-color: transparent;
+}
+.err-btn {
+    color: rgb(19, 1, 1);
+    width: 12.6rem;
+    height: 3.6rem;
+    font-size: xx-large;
+    margin-top: 4rem;
+    margin-left: 19rem;
+    background-color: rgb(233, 164, 216);
+    font-weight: 700;
+    border: 3px solid darkred;
+    padding: 4px 18px;
+    transition: cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+.err-btn:hover{
+    color:rgb(1, 14, 0);
+    background-color: #fd0dad;
+    transition: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    transition: cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+.err-btn1 {
+    color: #1d0101;
+    width: 11rem;
+    height: 9rem;
+    font-size: xx-large;
+    margin-top: 4rem;
+    margin-left: 8rem;
+    background-color: rgb(249 227 227 / 90%);
+    font-weight: 700;
+    border: 3px solid darkred;
+    padding: 4px 18px;
+    transition: cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+.err-btn1:hover{
+    color:rgb(14, 1, 1);
+    background-color: #fd0d0d;
+    transition: cubic-bezier(0.95, 0.05, 0.795, 0.035);
+}
+
+@media (min-width: 920px){
+.form-inline .form-control {
+    display: inline-block;
+    width: auto;
+    vertical-align: middle;
+}
+}
+@media (min-width: 920px){
+.mr-sm-2 {
+    margin-right: .5rem!important;
+}
+}
+.form-control {
+    display: block;
+    width: 100%;
+    min-height: calc(1.5em + .75rem + 2px);
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    -webkit-appearance: none;
+    appearance: none;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}}
+
+/* home page
+ */
+
+ 

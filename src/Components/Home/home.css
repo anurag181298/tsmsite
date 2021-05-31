@@ -1,0 +1,133 @@
+
+  @media (min-width: 640px){
+    .container {
+        max-width: inherit;
+        background-color: midnightblue;
+        font-family: 'Courier New', Courier, monospace;
+        height: 36rem;
+        padding-top: 3rem;
+    }
+}
+
+#header .btn-get-started{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 900;
+    font-size: 21px;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 10px 30px;
+    border-radius: 50px;
+    transition: 0.5s;
+    color: rgb(243, 4, 4);
+  
+    border: 2px solid black;
+    background-color: rgb(247, 252, 253);
+    text-decoration: none;
+}
+
+.header-img {
+  text-align: right;
+  margin-left: 38rem;
+  margin-top: -16rem;
+  background-clip: border-box;
+  background-size: cover;
+}
+/*
+.header-img .animated{
+  background-color: black;
+  border: 10px;
+  transform: translate3d(0 1 0);
+  transform-style: preserve-3d;
+  transition: cubic-bezier(0.6, -0.28, 0.735, 0.045);
+   animation: up-down 2s ease-in-out infinite alternate-reverse both;
+
+@-webkit-keyframes up-down{
+   0%{
+       transform: translateY(100px);
+   }
+   100%{
+       transform: translateY(-100px);
+   }}
+   @keyframes up-down{
+       0%{
+           transform: translateY(10px);
+       }
+       100%{
+           transform: translateY(-10px);
+       }
+}
+}
+.header.animated{
+  animation: up-down 2s ease-in-out infinite alternate-reverse both;
+
+@-webkit-keyframes up-down{
+  0%{
+      transform: translateY(100px);
+  }
+  100%{
+      transform: translateY(-100px);
+  }}
+  @keyframes up-down{
+      0%{
+          transform: translateY(10px);
+      }
+      100%{
+          transform: translateY(-10px);
+      }
+}}
+
+ */
+
+ h5 {
+  margin-top: 0;
+  color:  red;
+  margin-bottom: 1rem;
+  font-weight: 500;
+  font-size: 6rem;
+  line-height: 1.2;
+}
+img {
+  max-width: 100%;
+  height: auto;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+   border: 2px solid black;
+   background: transparent;
+   margin-top: 10px;
+   margin-left: 1rem;
+   fill: none;
+   stroke-width: 6.5;
+   animation-name: preloader;
+   animation-duration: 3s;
+   animation-iteration-count: infinite;
+   animation-timing-function: ease-in-out;
+   transform-origin: 170px 170px;
+   will-change: transform;
+ }
+   :nth-of-type(1) {
+     stroke-dasharray: 500px;
+   }
+ 
+   :nth-of-type(2) {
+     stroke-dasharray: 300px;
+   }
+ 
+   :nth-of-type(3) {
+     stroke-dasharray: 500px;
+   }
+ 
+   :nth-of-type(4) {
+     stroke-dasharray: 300spx;
+   }
+
+ @keyframes preloader{
+   0%{
+     transform: up-down(360deg);
+   }
+ }
+ 
+ /* @keyframes preloader {
+   0%{
+     transform: rotate(20deg);
+   } */
+ /* } */

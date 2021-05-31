@@ -1,0 +1,35 @@
+.d-inline-block align-top
+{
+  height: 2rem;
+}
+ReactBootStrap.Carousel.Item{
+  width: 50rem;
+  height: 50rem;
+   display: flex;
+  
+  background-color: brown;
+}
+.d{
+  height: 3rem;
+  width: 3rem;
+}
+.d-block {
+  height: 40rem;
+  width: inherit;
+}
+img{
+  height: 13rem;
+width: 15rem;
+padding-left: 10px;
+padding: 4px;
+margin: -38px;
+border-radius: 0% solid black !important;
+padding-top: 4px;
+border-style: solid;
+padding: 0px -1px 10px 7px;
+background-color: rgba(243, 247, 246, 0.18);
+border-bottom-left-radius: 0rem;
+border-bottom-right-radius: 0rem;
+border-top-left-radius: 0rem;
+border-top-right-radius: 0rem;
+}

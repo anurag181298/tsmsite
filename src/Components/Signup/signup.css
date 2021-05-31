@@ -1,0 +1,39 @@
+@media (min-width: 640px){
+    .container1{
+        max-width: inherit;
+        background-color: midnightblue;
+        /* background-image: url("https://images.hdqwalls.com/download/best-nature-image-1366x768.jpg"); */
+        font-family: 'Courier New', Courier, monospace;
+        height: 36rem;
+        width: 85.3rem;
+    }
+   
+    label{
+        color:rgb(245, 139, 1);
+    }
+
+    .row1{
+        width: 38rem;
+        height: 28rem;
+        padding: 3rem;
+        margin-left: 20rem;
+    }
+   .form1{
+    background-color: aqua;
+    width: 66%;
+    margin-left: 7rem;
+    margin-top: 28px;
+    margin-top: 0rem;
+    padding-top: 5rem;
+    min-height: calc(1.5em + .75rem + 2px);
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    border: 2px solid #ced4da;
+    -webkit-appearance: none;
+    appearance: none;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+   }
+}

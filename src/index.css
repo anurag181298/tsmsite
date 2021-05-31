@@ -1,0 +1,67 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+    background-color: grey;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+@media (min-width: 1080px){
+.navbar-expand-lg .navbar-collapse {
+    display: flex!important;
+ 
+    width: fit-content;
+    color: black;
+    height: 3rem
+}}
+@media (min-width: 1080px){
+.navbar-expand-lg {
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    background-color: currentColor;
+    height: 49px;
+    margin: 1px;
+    margin-top: 1px;
+}}
+ a.menu_active{
+   border: 2px;
+    border-bottom: 1px solid rgb(248, 2, 207);
+}
+a.menu_active:hover{
+    color: rgb(243, 13, 205);
+    border-bottom: 1px solid rgb(248, 2, 207);
+}
+@media (min-width: 1080px){
+.navbar-expand-lg {
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    height: 3rem;
+}}
+.nav-link {
+  display: block;
+  padding: 0.5rem 1rem;
+  text-decoration: none;
+  transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
+  padding-top: 3px;
+  margin-top: 3px;
+  margin-left: 3px;
+  background-color: white;
+  border: 1px solid rgb(4, 253, 58);
+}
+@media (min-width: 992px){
+.navbar-expand-lg {
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    height: 3rem;
+    color: black;
+    margin-top: 0px;
+    background-color: rgb(48, 45, 48);
+    border: 1px solid rgb(250, 3, 3);
+}}
